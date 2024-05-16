@@ -3,7 +3,7 @@
   "id": "litematicawand",
   "version": "${version}",
   "name": "litematicaWand",
-  "description": "",
+  "description": "Simple Minecraft Mod that adds a dummy item in to the game for Litematica!",
   "authors": [],
   "contact": {
     "repo": "https://github.com/void/litematicaWand"
