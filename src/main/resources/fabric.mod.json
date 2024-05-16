@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "litematicawand",
+  "version": "${version}",
+  "name": "litematicaWand",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/void/litematicaWand"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/litematicawand/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.thevoidblock.litematicawand.client.LitematicaWandClient"
+    ],
+    "main": [
+      "com.thevoidblock.litematicawand.LitematicaWand"
+    ]
+  },
+  "mixins": [
+    "litematicawand.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
