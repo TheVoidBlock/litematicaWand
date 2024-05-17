@@ -4,9 +4,13 @@
   "version": "${version}",
   "name": "litematicaWand",
   "description": "Simple Minecraft Mod that adds a dummy item in to the game for Litematica!",
-  "authors": [],
+  "authors": [
+    "TheVoidBlock"
+  ],
   "contact": {
-    "repo": "https://github.com/void/litematicaWand"
+    "homepage": "modrinth.com/mod/litematicawand",
+    "sources": "https://github.com/thevoidblock/litematicawand",
+    "issues": "https://github.com/thevoidblock/litematicawand/issues"
   },
   "license": "GPL-3.0",
   "icon": "assets/litematicawand/icon.png",
@@ -19,9 +23,6 @@
       "com.thevoidblock.litematicawand.LitematicaWand"
     ]
   },
-  "mixins": [
-    "litematicawand.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
