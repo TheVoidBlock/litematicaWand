@@ -1,6 +1,5 @@
 package com.thevoidblock.litematicawand.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -14,7 +13,7 @@ import static com.thevoidblock.litematicawand.LitematicaWand.MOD_ID;
 
 public class ModItems {
 
-    public static final Item WAND = registerItem("wand", new Item(new FabricItemSettings()));
+    public static final Item WAND = registerItem("wand", new Item(new Item.Settings()));
 
     private static void addItemsToOperatorItemGroup(FabricItemGroupEntries entries) {
         entries.add(WAND);
