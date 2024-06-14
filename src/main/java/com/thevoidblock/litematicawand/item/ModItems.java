@@ -22,7 +22,7 @@ public class ModItems {
     private static Item registerItem(String name, Item item) {
         return Registry.register(
                 Registries.ITEM,
-                new Identifier(MOD_ID, name),
+                Identifier.of(MOD_ID, name),
                 item
         );
     }
