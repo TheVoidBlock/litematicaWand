@@ -13,9 +13,7 @@ public class LitematicaWand implements ModInitializer {
 
     @Override
     public void onInitialize() {
-
         Wand.register();
-
         LOGGER.info("{} initialized!", MOD_ID);
     }
 }
