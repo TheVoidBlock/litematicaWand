@@ -1,6 +1,6 @@
 package com.thevoidblock.litematicawand;
 
-import com.thevoidblock.litematicawand.item.ModItems;
+import com.thevoidblock.litematicawand.item.Wand;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +14,7 @@ public class LitematicaWand implements ModInitializer {
     @Override
     public void onInitialize() {
 
-        ModItems.registerModItems();
+        Wand.register();
 
         LOGGER.info("{} initialized!", MOD_ID);
     }
