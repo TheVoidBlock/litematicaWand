@@ -6,6 +6,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 import static com.mojang.text2speech.Narrator.LOGGER;
@@ -13,16 +15,17 @@ import static com.thevoidblock.litematicawand.LitematicaWand.MOD_ID;
 
 public class ModItems {
 
-    public static final Item WAND = registerItem("wand", new Item(new Item.Settings()));
+    public static final RegistryKey<Item> WAND_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, "wand"));
+    public static final Item WAND = registerItem(new Item(new Item.Settings().registryKey(WAND_KEY)), WAND_KEY);
 
     private static void addItemsToOperatorItemGroup(FabricItemGroupEntries entries) {
         entries.add(WAND);
     }
 
-    private static Item registerItem(String name, Item item) {
+    private static Item registerItem(Item item, RegistryKey<Item> registryKey) {
         return Registry.register(
                 Registries.ITEM,
-                Identifier.of(MOD_ID, name),
+                registryKey.getValue(),
                 item
         );
     }
