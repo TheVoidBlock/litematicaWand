@@ -14,11 +14,7 @@
   },
   "license": "GPL-3.0",
   "icon": "assets/litematicawand/icon.png",
-  "environment": "client",
   "entrypoints": {
-    "client": [
-      "com.thevoidblock.litematicawand.client.LitematicaWandClient"
-    ],
     "main": [
       "com.thevoidblock.litematicawand.LitematicaWand"
     ]
