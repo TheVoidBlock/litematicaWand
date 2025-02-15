@@ -17,7 +17,7 @@ public class Wand {
     public static final Item WAND = Registry.register(
             Registries.ITEM,
             WAND_KEY,
-            new Item(new Item.Settings().registryKey(WAND_KEY))
+            new Item(new Item.Settings().maxCount(1).registryKey(WAND_KEY))
     );
 
     public static void register() {
