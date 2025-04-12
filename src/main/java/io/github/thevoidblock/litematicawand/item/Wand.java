@@ -1,4 +1,4 @@
-package com.thevoidblock.litematicawand.item;
+package io.github.thevoidblock.litematicawand.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -9,7 +9,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
-import static com.thevoidblock.litematicawand.LitematicaWand.MOD_ID;
+import static io.github.thevoidblock.litematicawand.LitematicaWand.MOD_ID;
 
 public class Wand {
 

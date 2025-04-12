@@ -1,6 +1,6 @@
-package com.thevoidblock.litematicawand;
+package io.github.thevoidblock.litematicawand;
 
-import com.thevoidblock.litematicawand.item.Wand;
+import io.github.thevoidblock.litematicawand.item.Wand;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -16,7 +16,7 @@
   "icon": "assets/litematicawand/icon.png",
   "entrypoints": {
     "main": [
-      "com.thevoidblock.litematicawand.LitematicaWand"
+      "io.github.thevoidblock.litematicawand.LitematicaWand"
     ]
   },
   "depends": {
