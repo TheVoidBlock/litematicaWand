@@ -11,7 +11,7 @@ import net.minecraft.world.item.Item;
 
 import static io.github.thevoidblock.litematicawand.LitematicaWand.MOD_ID;
 
-public class Wand {
+public class WandItem {
     public static final ResourceKey<Item> WAND_KEY = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, "wand"));
     public static final Item WAND = Registry.register(
             BuiltInRegistries.ITEM,

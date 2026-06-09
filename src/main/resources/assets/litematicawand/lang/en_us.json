@@ -1,3 +1,4 @@
 {
-  "item.litematicawand.wand": "Litematica Wand"
+  "item.litematicawand.wand": "Litematica Wand",
+  "commands.litematicawand.lwand": "Received %s %s"
 }
