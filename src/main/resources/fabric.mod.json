@@ -19,9 +19,13 @@
       "io.github.thevoidblock.litematicawand.LitematicaWand"
     ]
   },
+  "mixins": [
+    "litematicawand.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
-    "minecraft": "~${minecraft_version}"
+    "minecraft": "~${minecraft_version}",
+    "litematica": "*"
   }
 }

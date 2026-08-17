@@ -9,12 +9,18 @@ base {
     archivesName = project.archives_base_name
 }
 
+repositories {
+    maven {url = "https://api.modrinth.com/maven" }
+}
+
 dependencies {
     // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    implementation "maven.modrinth:litematica:${project.litematica_version}"
+    implementation "maven.modrinth:malilib:${project.malilib_version}"
 }
 
 processResources {
